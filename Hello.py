@@ -6,7 +6,7 @@ def hello():
 
 
 def main():
-    inputbox = input('Please write:')
+    inputbox = input('Please write"hello":')
     if inputbox == 'hello':
         return hello()
 
