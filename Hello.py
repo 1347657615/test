@@ -1,4 +1,7 @@
 # -*- coding:utf-8 -*-
+import __hello__
+
+
 print('Hello world!')
 
 def hello():
