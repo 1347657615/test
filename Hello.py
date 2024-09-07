@@ -4,13 +4,13 @@ import __hello__
 
 print('Hello world!')
 
-def hello():
-    print('Hello World!')
+def hello() -> None:
+    print('Hello World!')  
 
 
-def main():
+def main() -> None:
     inputbox = input('Please write"hello":')
-    if inputbox == 'hello':
+    if inputbox == 'hello':    
         return hello()
 
 
