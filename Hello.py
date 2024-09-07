@@ -7,6 +7,8 @@ print('Hello world!')
 def hello() -> None:
     print('Hello World!')  
 
+def Hello() -> str:
+    return "Hello World!"
 
 def main() -> None:
     inputbox = input('Please write"hello":')
